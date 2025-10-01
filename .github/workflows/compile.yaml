@@ -42,7 +42,7 @@ jobs:
           EOF
           bash ./compile.sh kernel \
           SHARE_LOG=yes \
-          BOARD=orangepi5 \
+          BOARD=orangepi5-plus \
           BRANCH=vendor \
           ENABLE_EXTENSIONS="pull-request"
 
